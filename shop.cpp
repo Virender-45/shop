@@ -31,6 +31,7 @@ void Shop ::setPrice()
     cin >> itemPrice[counter];
     counter++;
 }
+
 void Shop::displayPrice()
 {
     for (int i = 0; i < counter; i++)
